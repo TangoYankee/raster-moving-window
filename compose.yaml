@@ -1,0 +1,5 @@
+services:
+  pmtiles:
+    image: protomaps/go-pmtiles:v1.31.2
+    volumes:
+      - ./rasters:/rasters
